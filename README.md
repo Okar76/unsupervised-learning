@@ -13,29 +13,22 @@ project-root/
 ├── data/                         # Raw and cleaned datasets
 │
 ├── kmeans/                      # KMeans clustering
-│   ├── kmeans_model.ipynb
-│   ├── kmeans_elbow_plot.png
-│   └── kmeans_results.csv
+│   ├── k-means.ipynb
 │
 ├── hierarchical/                # Hierarchical Agglomerative Clustering
 │   ├── hierarchical_model.ipynb
-│   └── dendrogram_plot.png
 │
 ├── dbscan/                      # Density-Based Spatial Clustering (DBSCAN)
-│   ├── dbscan_model.ipynb
-│   └── dbscan_clusters.png
+│   ├── DBSCAN.ipynb
 │
-├── pca/                         # Principal Component Analysis (PCA)
-│   ├── pca_analysis.ipynb
-│   └── pca_variance_plot.png
+├── PCA/                         # Principal Component Analysis (PCA)
+│   ├── PCA.ipynb
 │
-├── kernel_pca/                  # Kernel PCA (nonlinear dimensionality reduction)
-│   ├── kernel_pca_model.ipynb
-│   └── kernel_pca_results.csv
+├── kernel_PCA/                  # Kernel PCA (nonlinear dimensionality reduction)
+│   ├── kernel_PCA.ipynb
 │
-├── matrix_factorization/        # Matrix Factorization
-│   ├── matrix_factorization.ipynb
-│   └── latent_features.csv
+├── NMF /        # Matrix Factorization
+│   ├── NMF.ipynb
 │
 └── README.md                    # This file
 ```
@@ -44,7 +37,7 @@ project-root/
 
 ## 🔍 Objectives
 
-- Apply various **unsupervised learning models** to analyze the dataset
+- Apply various **unsupervised learning models** to analyze the datasets
 - Compare clustering results using different methods
 - Reduce data dimensions using PCA and Kernel PCA
 - Extract latent features using Matrix Factorization
@@ -115,8 +108,3 @@ Each model’s notebook contains:
 - Fine-tune DBSCAN parameters
 - Explore deeper latent structure with NMF or SVD
 
----
-
-## 🧔 Author
-
-*Prepared with ❤️ by a true data beast.*
