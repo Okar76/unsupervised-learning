@@ -1,7 +1,7 @@
 
 # 🧠 Unsupervised Learning Project
 
-This project applies multiple **unsupervised learning** techniques on a selected dataset to explore patterns, reduce dimensionality, and extract meaningful insights.
+This project applies multiple **unsupervised learning** techniques on a selected datasets to explore patterns, reduce dimensionality, and extract meaningful insights.
 
 ---
 
